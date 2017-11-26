@@ -30,7 +30,11 @@ nav ul li a{
   color: #fff;
   display: block;
 }
-
+nav button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+}
 nav ul li:hover{
   background: rgb(6, 23, 48);
 }
