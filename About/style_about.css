@@ -5,14 +5,15 @@ body {
   background: rgb(111, 120, 202);
 }
 .container-text{
-  margin: 160px auto;
+  margin-top: 10%;
+  margin-left: 15%;
   width: 70%;
 }
 
 
 .gallery {
   width: 42%;
-  margin: -5% auto;
+  margin: 5% 30%;
   padding: 11px;
   background: #fff;
   height: 50%;
