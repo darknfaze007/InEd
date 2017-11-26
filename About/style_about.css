@@ -1,0 +1,64 @@
+@import url("../HomePage/style_home_page.css");
+body {
+  margin: 0 auto;
+  color: rgb(27, 24, 43);
+  background: rgb(111, 120, 202);
+}
+.container-text{
+  margin: 160px auto;
+  width: 70%;
+}
+
+
+.gallery {
+  width: 42%;
+  margin: -5% auto;
+  padding: 11px;
+  background: #fff;
+  height: 50%;
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  width: 200px;
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+h2{
+  color: white;
+  font-size: 20px;
+}
+p{
+  font-size: 15px;
+}
+.container{
+  height: 100%;
+  overflow: hidden;
+}
