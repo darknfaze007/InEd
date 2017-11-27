@@ -18,8 +18,8 @@ document.write('\
     <li><a href="../Contact/contact.html">Contact</a></li>\
     <li><a href="#">My account <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>\
     <ul>\
-        <li><a href="#">Edit Profile</a></li>\
-        <li><a href="#">Logout</a></li>\
+        <li><a href="../EditProfile/edit_profile">Edit Profile</a></li>\
+        <li><a href="../HomePage/index.html">Logout</a></li>\
     </ul>\
     </li>\
 </ul>\
