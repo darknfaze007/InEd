@@ -11,7 +11,7 @@ function filterSelection(c) {
 }
 
 function addClass(element, name) {
-  var i, arr1, arr2;
+  var i, arrayNameOfClass, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -24,11 +24,11 @@ function addClass(element, name) {
 
 function removeClass(element, name) {
   var i, arr1, arr2;
-  arr1 = element.className.split(" ");
+  arr1 = element.className.split(" "); //iau valorile claselor
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1); 
+      arr1.splice(arr1.indexOf(arr2[i]), 1); //daca gasesc elem din clasa show in arr1 le sterg
     }
   }
   element.className = arr1.join(" ");
