@@ -1,13 +1,14 @@
 document.write('\
         \
         <nav class="fixed-nav-bar">\
-        <div class="favicon"><img src="images/fav.png"></div>\
+        <div class="favicon"><img src="../HomePage/images/fav.png"></div>\
         <ul>\
             <li><a href="../HomePage/index.html">Home</a></li>\
             <li><a href="#">Features <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>\
             <ul>\
                 <li><a href="#">Charts</a></li>\
                 <li><a href="#">Infographics</a></li>\
+                <li><a href="#">Maps</a></li>\
             </ul>\
             </li>\
             <li><a href="../Blog/blog.html">Blog</a></li>\
