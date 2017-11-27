@@ -1,0 +1,90 @@
+body{
+  margin: 0 auto;
+  background-color: rgb(111, 120, 202);
+}
+.container{
+  height: 100%;
+  overflow: hidden;
+}
+.form-style{
+  width:30%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0 auto;
+  margin-top:6%;
+}
+.form-style label{
+  display:block;
+  margin-bottom: 10px;
+}
+.form-style label > span{
+  float: left;
+  width: 100px;
+  color: white; 
+  font-weight: bold;
+  font-size: 14px;
+}
+.form-style fieldset{
+  -webkit-border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid rgb(10, 10, 44);
+  padding: 20px;
+  background: rgb(62, 62, 119);
+
+  -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+.form-style fieldset legend{
+  color: black;
+  border-top: 1px solid rgb(10, 10, 44);
+  border-left: 1px solid rgb(10, 10, 44);
+  border-right: 1px solid rgb(10, 10, 44);
+  -webkit-border-radius: 5px 5px 0px 0px;
+  background: #FFF4F4;
+  padding: 0px 8px 3px 8px;
+
+  font-weight: normal;
+  font-size: 12px;
+}
+.form-style textarea{
+  width:250px;
+  height:100px;
+}
+.form-style input[type=text],
+.form-style select,
+.form-style textarea{
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border: 1px solid rgb(10, 10, 44);;
+  outline: none;
+  color: black;
+  padding: 5px 8px 5px 8px;
+  width:50%;
+}
+.form-style input[type=button]{
+  background-color: rgb(39, 39, 77); 
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 12px;
+  width: 30%;
+  height: 10%;
+  font-size: 17px;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left:10%;
+}
+.form-style  input[type=button]:hover {
+  background-color: rgb(10, 10, 44);
+  color: white;
+}
+.required{
+  color:red;
+  font-weight:normal;
+}
+p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: white;
+}
+

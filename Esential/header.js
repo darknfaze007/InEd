@@ -12,7 +12,7 @@ document.write('\
             </ul>\
             </li>\
             <li><a href="../Blog/blog.html">Blog</a></li>\
-            <li><a href="#">Forum</a></li>\
+            <li><a href="../Forum/forum.html">Forum</a></li>\
             <li><a href="../About/index.html">About</a></li>\
             <li><a href="../Contact/contact.html">Contact</a></li>\
         </ul>\
