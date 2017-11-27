@@ -12,9 +12,9 @@ document.write('\
         <li><a href="#">Maps</a></li>\
     </ul>\
     </li>\
-    <li><a href="#">Blog</a></li>\
+    <li><a href="../Blog/blog.html">Blog</a></li>\
     <li><a href="#">Forum</a></li>\
-    <li><a href="#">About</a></li>\
+    <li><a href="../About/index.html">About</a></li>\
     <li><a href="../Others/contact.html">Contact</a></li>\
     <li><a href="#">My account <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>\
     <ul>\
