@@ -81,10 +81,6 @@ form{
   label{
       color: white;
   }
-  input{
-    position: absolute;
-    visibility: hidden;
-    display: block;
-  }
+
  
 

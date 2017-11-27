@@ -2,7 +2,7 @@ body{
   margin: 0 auto;
   background-color: rgb(111, 120, 202);
 }
-.container{
+.container-forum{
   height: 100%;
   overflow: hidden;
 }
@@ -59,7 +59,7 @@ body{
   padding: 5px 8px 5px 8px;
   width:50%;
 }
-.form-style input[type=button]{
+.buttonSave{
   background-color: rgb(39, 39, 77); 
   border: 2px solid white;
   border-radius: 20px;
@@ -72,7 +72,7 @@ body{
   cursor: pointer;
   margin-left:10%;
 }
-.form-style  input[type=button]:hover {
+.buttonSave:hover {
   background-color: rgb(10, 10, 44);
   color: white;
 }
