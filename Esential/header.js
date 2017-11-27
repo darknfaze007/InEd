@@ -13,7 +13,7 @@ document.write('\
             <li><a href="../Blog/blog.html">Blog</a></li>\
             <li><a href="#">Forum</a></li>\
             <li><a href="../About/index.html">About</a></li>\
-            <li><a href="../Others/contact.html">Contact</a></li>\
+            <li><a href="../Contact/contact.html">Contact</a></li>\
         </ul>\
         <button class="button button1"><a href="../LoginPage/login.html">Log in</a></button>\
         </nav>\
