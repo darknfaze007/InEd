@@ -16,7 +16,7 @@ document.write('\
             <li><a href="../About/index.html">About</a></li>\
             <li><a href="../Contact/contact.html">Contact</a></li>\
         </ul>\
-        <button class="button button1"><a href="../LoginPage/login.html">Log in</a></button>\
+        <a href="../LoginPage/login.html"><button class="button button1">Log in</button></a>\
         </nav>\
         \
 ');
