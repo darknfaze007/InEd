@@ -9,3 +9,6 @@ The most common definition of Infographic describes it simply as a visual repres
 Our users would be able to import data from local files, using APIs or from public sources, based on an URL. 
 
 The created infographics can be exported as PNG images or SVG illustrations
+
+
+HALLO!
