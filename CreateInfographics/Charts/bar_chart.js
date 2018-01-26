@@ -113,7 +113,7 @@ function startMoving(divid){
         diffY = posY - divTop;
     document.onmousemove = function(evt){
         evt = evt || window.event;
-        var limit = 498;
+        var limit = 198;
         var posX = evt.clientX,
             posY = evt.clientY,
             aX = posX - diffX,
