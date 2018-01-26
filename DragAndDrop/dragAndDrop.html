@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="dragAndDrop.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../HomePage/style_home_page.css">
+<link rel="stylesheet" type="text/css" href="dragAndDrop.css">
+<script src="../Esential/header.js"></script>
+</head>
+<body>  
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <header class="container">
+            <h1>Try to drag these blue squares into the gray area below.</h1>
+        </header>
+        
+        <div class="container">
+            
+            <div class="draggable drag-elem" id="no-drop"> #no-drop </div>
+        
+            <div class="draggable draggable-droppable drag-elem" id="yes-drop"> #yes-drop </div>
+        
+            <img class="draggable draggable-droppable" src="https://via.placeholder.com/100/67a8d6/ffffff?text=DRAG+ME!">
+            
+            <img class="draggable draggable-droppable" src="https://via.placeholder.com/100/67a8d6/ffffff?text=+INTO!+">
+            
+            <img class="draggable draggable-droppable" src="https://via.placeholder.com/100/67a8d6/ffffff?text=THE+SVG!">
+        
+        </div>
+            
+        <div class="container">
+        
+            <svg class="dropzone resizable" 
+                 id="svg-dropzone" 
+                 viewBox="0 0 800 600" 
+                 width="800" 
+                 height="600">
+        
+                <rect x="0" y="0" width="100%" height="100%" stroke="#000000" fill="#999" />
+        
+            </svg>
+        
+        </div>
+ <script src="../Esential/footer.js"></script>  
+</body>
+</html>

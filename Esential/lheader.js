@@ -18,6 +18,8 @@ document.write('\
     <li><a href="#">My account <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>\
     <ul>\
         <li style="min-width: 115px;"><a href="../EditProfile/edit_profile.html">Edit Profile</a></li>\
+        <li style="min-width: 115px;"><a href="../Forum/forum.html">Create poll</a></li>\
+        <li style="min-width: 115px;"><a href="">My infographics</a></li>\
         <li style="min-width: 115px;"><a href="../HomePage/index.html">Logout</a></li>\
     </ul>\
     </li>\
