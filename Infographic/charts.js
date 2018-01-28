@@ -1,41 +1,45 @@
+testPieChartData = [
+    {
+        y: 26,
+        label: "School Aid"
+    },
+    {
+        y: 17,
+        label: "Medical Aid"
+    },
+    {
+        y: 20,
+        label: "Debt/Capital"
+    },
+    {
+        y: 5,
+        label: "Elected Officials"
+    },
+    {
+        y: 3,
+        label: "University"
+    },
+    {
+        y: 7,
+        label: "ARIBA ARIBA"
+    },
+    {
+        y: 6,
+        label: "Other Local Assistance"
+    }
+];
+
 window.onload = function () {
-    testPieChartData = [
-        {
-            y: 26,
-            label: "School Aid"
-        },
-        {
-            y: 17,
-            label: "Medical Aid"
-        },
-        {
-            y: 20,
-            label: "Debt/Capital"
-        },
-        {
-            y: 5,
-            label: "Elected Officials"
-        },
-        {
-            y: 3,
-            label: "University"
-        },
-        {
-            y: 7,
-            label: "ARIBA ARIBA"
-        },
-        {
-            y: 6,
-            label: "Other Local Assistance"
-        },
-    ];
-    createPieChart(testPieChartData);
-    createDoughnutChart(testPieChartData);
-    createPyramidChart(testPieChartData);
+
+
+    //createPieChart(testPieChartData, null);
+    //createDoughnutChart(testPieChartData);
+    //createPyramidChart(testPieChartData);
 };
 
-var createPieChart = function(dataArray) {
-    var pieChart = new CanvasJS.Chart("pieChartContainer", {
+/*
+var createPieChart = function(dataArray, divId) {
+    var pieChart = new CanvasJS.Chart(((divId) ? divId : "pieChartContainer"), {
         exportEnabled: true,
         animationEnabled: true,
         title:{
@@ -57,8 +61,9 @@ var createPieChart = function(dataArray) {
     
     pieChart.render();
 };
+*/
 
-var createDoughnutChart = function(dataArray) {
+/*var createDoughnutChart = function(dataArray) {
     var doughnutChart = new CanvasJS.Chart("doughnutChartContainer", {
         animationEnabled: true,
         title:{
@@ -76,10 +81,10 @@ var createDoughnutChart = function(dataArray) {
         }]
     });
     doughnutChart.render();
-};
+};*/
 
-var createPyramidChart = function(dataArray) {
-    var pyramidChart = new CanvasJS.Chart("pyramidChartContainer", {
+var createPyramidChart = function(/*dataArray, divId*/) {
+    var pyramidChart = new CanvasJS.Chart("graphCanvas", {
         animationEnabled: true,
         exportEnabled: true,
         theme: "light1",
@@ -93,7 +98,7 @@ var createPyramidChart = function(dataArray) {
             indexLabelFontSize: 16,
             indexLabel: "{label} - {y}",
             //reversed: true, // Reverses the pyramid
-            dataPoints: dataArray
+            dataPoints: testPieChartData
         }]
     });
     pyramidChart.render();
@@ -107,7 +112,7 @@ function populateChartWithData(dataArray) {
             y: dataArray[i].y,
             name: dataArray[i].label,
             label: dataArray[i].label
-        }
+        };
         resultArray.push(tempObject);
         /*pieChart.options.data.dataPoints[i].y = dataArray[i].y;
         pieChart.options.data.dataPoints[i].name = dataArray[i].name;*/

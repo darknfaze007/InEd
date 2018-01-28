@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../HomePage/style_home_page.css">
+<link rel="stylesheet" type="text/css" href="infographics.css">
+<script src="../Esential/header.js"></script>
+<script src = "https://cdn.bootcss.com/FileSaver.js/2014-11-29/FileSaver.min.js"></script>
+<script src = "https://cdn.bootcss.com/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+
+<!--<script src="dragAndDrop.js"></script>-->
+</head>
+<body>  
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    
+    <div id  = "img1">
+        <img src = "http://www.advsofteng.com/doc/cdpydoc/images/simplepie.png" style="width:100%;
+            height: 246px;margin-bottom:-5px;">
+        <button id="insertChart">Insert</button>  
+    </div>
+    <div id = "img3">
+        <img src = "https://peltiertech.com/images/2013-01/Donut1.png" style="width:100%;
+        height: 246px;margin-bottom:-5px;">
+        <button id="insertDonutChart">Insert</button>  
+    </div>
+    <div id = "img4">
+        <img src = "http://backstopmedia.booktype.pro/developing-a-d3js-edge/reusable-bar-chart/static/reusable_with_axes.html.png" style="width:100%;
+        height: 246px;margin-bottom:-5px;">
+        <button id="insertBarChart">Insert</button>  
+    </div>
+    <div id = "img5">
+        <img src = "http://cdn.history.com/sites/2/2013/12/egyptian-pyramids-hero-H.jpeg" style="width:100%;
+        height: 246px;margin-bottom:-5px;">
+        <button id="insertPyramidChart">Insert</button>
+    </div>
+    
+    <div id="graphCanvas"></div>
+    <div id  = "btn_save">
+        <button id="saveImage">Save</button>
+        <form id="testForm">
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Mouse">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="Charts/bar_chart.js"></script> 
+    <script src="Charts/pie_chart.js"></script>
+    <script src="Charts/donut_chart.js"></script>
+    <script src="Charts/pyramid_chart.js"></script>
+    <script src="Charts/id_generator.js"></script>
+    <script src="Charts/submit_form.js"></script>
+    <script src="saveImage.js"></script>
+    <script src="../Infographic/charts.js"></script>
+
+
+ <script src="../Esential/footer.js"></script>  
+</body>
+</html>

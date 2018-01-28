@@ -6,9 +6,9 @@ document.write('\
     <li><a href="../HomePage/index.html">Home</a></li>\
     <li><a href="#">Features <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>\
     <ul>\
-        <li><a href="#">Charts</a></li>\
-        <li><a href="#">Infographics</a></li>\
-        <li><a href="#">Maps</a></li>\
+        <li><a href="../CreateInfographics/create_infographic.html">Charts</a></li>\
+        <li><a href="../CreateInfographics/create_infographic.html">Infographics</a></li>\
+        <li><a href="../CreateInfographics/create_infographic.html">Maps</a></li>\
     </ul>\
     </li>\
     <li><a href="../Blog/blog.html">Blog</a></li>\
@@ -18,6 +18,8 @@ document.write('\
     <li><a href="#">My account <i class="fa fa-angle-double-down" aria-hidden="true"></i></a>\
     <ul>\
         <li style="min-width: 115px;"><a href="../EditProfile/edit_profile.html">Edit Profile</a></li>\
+        <li style="min-width: 115px;"><a href="../Forum/forum.html">Create poll</a></li>\
+        <li style="min-width: 115px;"><a href="">My infographics</a></li>\
         <li style="min-width: 115px;"><a href="../HomePage/index.html">Logout</a></li>\
     </ul>\
     </li>\

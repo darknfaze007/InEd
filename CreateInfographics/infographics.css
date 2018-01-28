@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(111, 120, 202);
+}
+#graphCanvas {
+    width: 800px;
+    height: 800px;
+    transform: scale(1, 1);
+    background: rgb(255, 255, 255);
+    float: left;
+    margin-left: 100px;
+    /*margin-top: -18%;*/
+    margin-top:25px;
+    margin-bottom: 10%;
+}
+#img1,#img3,#img4 {
+    border: 2px solid rgb(39, 39, 77);
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+}
+#img1,#img3,#img4{
+    /*display: block;*/
+    display: inline;
+    margin-top: 10%;
+}
+#img1{
+    /*margin-top: 10%;*/
+}
+#img3{
+    /*clear: left; cu display block pt img1*/
+}
+#btn_save{
+    float: right;
+    /*margin-right: 100px;*/
+    margin-right: 200px;
+    margin-top:25px;
+    /*margin-top: -18%;*/
+}
+#saveImage{
+    background-color: rgb(58, 58, 124); 
+    border: 2px solid white;
+    color:white;
+    width: 125px;
+    height: 40px;  
+    border-radius: 20px;
+}
+
+#chart_div,#donut_chart_div{
+    width: 300px;
+    height: 300px;
+}
+
+#insertChart,#insertDonutChart,#insertBarChart {
+    background-color: rgb(58, 58, 124); 
+    border: 1px solid white;
+    color:white;
+    width: 100%;
+    height: 25px;
+    cursor:pointer;
+  }
+  
+#insertChart:hover,#insertDonutChart:hover,#saveImage:hover,#insertBarChart:hover {
+    background-color: rgb(39, 39, 77);
+    color: white;
+  }
+  
+.bar{
+    fill: steelblue;
+}
+
+.bar:hover{
+    fill: brown;
+}
+
+.axis {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
