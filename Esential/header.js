@@ -20,5 +20,14 @@ document.write('\
         <a href="../LoginPage/login.html"><button class="button button1">Log in</button></a>\
         </nav>\
         \        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>\
+        \<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">\
+        \<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>\
+        \    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>\
+        \    <script src="https://cdn.bootcss.com/FileSaver.js/2014-11-29/FileSaver.min.js"></script>\
+        \    <script src="https://cdn.bootcss.com/dom-to-image/2.6.0/dom-to-image.min.js"></script>\
+        \    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>\
+        \<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"\n' +
+    '            type="text/javascript"></script>\
+    \        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>\
         \
 ');
