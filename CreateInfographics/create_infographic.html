@@ -35,6 +35,22 @@
         <img src = "http://cdn.history.com/sites/2/2013/12/egyptian-pyramids-hero-H.jpeg" style="width:100%;
         height: 246px;margin-bottom:-5px;">
         <button id="insertPyramidChart">Insert</button>
+        <div id="myModal" class="modal">          
+            <div class="modal-content">
+                <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Import your files</h2>
+                </div>
+                <div class="modal-body">
+                        <p>Choose what type of file do you want to import?</p>
+                        <form action="" method="post">
+                            <input type="radio" name="filetype" value="csv" /> CSV File <br><br>
+                            <input type="radio" name="filetype" value="json" /> JSON File <br><br>
+                            <input type="submit" value="Submit"> 
+                        </form>
+                      </div>
+                </div>
+            </div>
     </div>
     
     <div id="graphCanvas"></div>
@@ -58,6 +74,7 @@
     <script src="Charts/id_generator.js"></script>
     <script src="Charts/submit_form.js"></script>
     <script src="saveImage.js"></script>
+    <script src="modal.js"></script>
     <script src="../Infographic/charts.js"></script>
 
 
