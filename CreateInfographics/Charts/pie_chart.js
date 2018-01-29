@@ -13,7 +13,7 @@ function insertChart(){
       .append("svg")
       .attr("id","svg1")
       .attr("width", 300)
-      .attr("height", 300)
+      .attr("height", 300);
       
 //chart-ul
       var svg = d3.select("#svg1"),
