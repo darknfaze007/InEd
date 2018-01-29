@@ -27,7 +27,7 @@ savespan.onclick = function() {
 }
 
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == savemodal) {
         savemodal.style.display = "none";
     }
 }

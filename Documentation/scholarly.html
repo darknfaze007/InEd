@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>InEd</title>
+        <link rel="stylesheet" href="scholarly.css">
+    </head>
+    <body>
+        <header>
+            <p class="title">Infographics Web Editor</p>
+        </header>
+        <article id="main" typeof="schema:ScholarlyArticle" resource="#">
+           <h1>InEd</h1>
+           <section>
+               <ul type = "circle">
+                   <li property="schema:author" typeof="sa:ContributorRole">
+                       <a property="schema:author" typeof="schema:Person">
+                           <span property="schema:givenName">Elena</span>
+                           <span property="schema:familyName">Anghelina</span>
+                       </a>
+                   </li>
+                   <li property="schema:author" typeof="sa:ContributorRole">
+                        <a property="schema:author" typeof="schema:Person">
+                            <span property="schema:givenName">Madalina-Gabriela</span>
+                            <span property="schema:familyName">Buza</span>
+                        </a>
+                   </li>
+                   <li property="schema:author" typeof="sa:ContributorRole">
+                        <a property="schema:author" typeof="schema:Person">
+                            <span property="schema:givenName">Lucian-Mihai</span>
+                            <span property="schema:familyName">Paslariu</span>
+                        </a>
+                   </li>
+               </ul>
+               <ul type = "circle">
+                    <li id="uaic">
+                        <a href="http://www.info.uaic.ro/bin/Main/" typeof="schema:CollegeOrUniversity">
+                            <span property="schema:name">Faculty of Computer Science Iasi, UAIC</span>
+                        </a>
+                    </li>
+                </ul>
+           </section>
+           <section id="abstract" typeof="sa:Abstract">
+               <h2>Abstract</h2>
+               <p>
+                  The best infographics transform complex information and data into graphics that are both easy to grasp and visually appealing.
+               </p>
+
+
+            </section>
+           <section id="motivation" typeof="sa:MatrialsAndMethods">
+               <h2>Motivation</h2>
+               <p>
+                  With infographics, you can create fresh content that communicates complex ideas to your audience at a glance.
+              </p>
+               <p>
+                  From pie charts to pictograms, you’ll have access to tons of different ways to represent your data.
+              </p>
+           </section>
+                <section id="generalDesign">
+                    <h3>General Design</h3>
+                    <p>
+                        We designed a tool which helps you to create infographics with data from .csv or .json file and design them in some forms that you choose in advance.
+                    </p>
+                </section>
+                <section id="userInteraction">
+                    <h3>User Interaction</h3>
+                    <figure typeof="sa:Image">
+                        <img src="./photos/homep.png">
+                    </figure>
+
+            <p>
+              From the homepage, clients have the opportunity to choose from the features that our site expose from creating infographics. These are : charts and maps.
+            </p>
+            <p>
+              First of all, users have to choose what type of charts/maps they do want to display on their infographics by clicking the Insert button. 
+            </p>
+            <figure typeof="sa:Image">
+                <img src="./photos/charts.png">
+                <figcaption>
+                    <p> Different type of ch</p>
+                 </figcaption>
+            </figure>
+            <p>
+                Some of the charts are just user friendly, used by the user for getting used with the concept of an infographics, so this way they could learn easily how an infographic works.
+            </p>
+            <figure typeof="sa:Image">
+                <img src=".photos/piechart.png">
+                <figcaption>
+                    Adding a predefined chart.
+                </figcaption>
+			<p>After that they will have to upload a file from local storage. This file is going to be used for creating their favorite infographic.It must be for sure  .csv or .json file because only these two are accepted by our application.</p>
+      
+            <p> 
+              So right now a modal is gonna be opened for the user to choose the file he wants to process. 
+              After submit, in canvas is gonna be shown a chart including datas from users input file.
+            </p>
+            <figure typeof="sa:Image">
+                <img src="./photos/piramid_chart.png">
+                <figcaption>
+                    Modal that appears after insert button is clicked.
+                </figcaption>
+            <p>
+            From now on, users has to choose how is displaying the resulted charts from the imported files having the chance to drag and drop them everywhere on the canvas.
+            </p>
+            <p>
+               When the client is done with creating charts and maps the applications is giving him the chance to save all of his work in a format that is more common for him (.png/.svg)
+            </p>
+            <figure typeof="sa:Image">
+                <img src="./photos/save.png">
+                <figcaption>
+                    Modal that appears after Save button is clicked.
+                </figcaption>
+
+                <section id="codeManagement">
+                    <h3>Code management</h3>
+			<p>In order to work efficiently as a team we chose a Distributed Version Control Software called <i>Git</i>. Our repository can be viewed at the link <a href="https://github.com/Elena-Anghelina/InEd">InEd</a></p>
+                </section>
+           </section>
+           <section id="conclusion" typeof="sa:Conclusion"></section>
+           <section id="references" typeof="sa:ReferenceList">
+               <h2>References</h2>
+               <dt>CLIW Course Page</dt>
+               <dd id="ref-vernacular" typeof="schema:ScholarlyArticle" resource="https://profs.info.uaic.ro/~busaco/teach/courses/cliw/">
+                    <cite property="schema:name"><a href="https://profs.info.uaic.ro/~busaco/teach/courses/cliw/">Dezvoltarea aplicatiilor Web la nivel de client</a></cite>
+                    by
+                    <span property="schema:author" typeof="schema:Person">
+                        <span property="schema:name">Sabin-Corneliu Buraga</span>
+                    </span>;
+                    <time property="schema:dataPublished" datetime="2017-11-19" datatype="xsd:gYearMonthDay">2017 Nov.</time>
+               </dd>
+               <dt>Stackoverflow</dt>
+               <dd id="ref-vernacular" typeof="schema:ScholarlyArticle" resource="https://stackoverflow.com/questions/14484613/load-local-json-file-into-variable">
+                    <cite property="schema:name"><a href="https://stackoverflow.com/questions/14484613/load-local-json-file-into-variable">Working with .json files</a></cite>
+                </dd>
+           </section>
+        </article>
+    </body>
+</html>
