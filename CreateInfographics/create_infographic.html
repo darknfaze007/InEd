@@ -13,45 +13,52 @@
 
 <!--<script src="dragAndDrop.js"></script>-->
 </head>
-<body>  
+<body>
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    
+
     <div id  = "img1">
         <img src = "http://www.advsofteng.com/doc/cdpydoc/images/simplepie.png" style="width:100%;
             height: 246px;margin-bottom:-5px;">
-        <button id="insertChart">Insert</button>  
+        <button id="insertChart">Insert</button>
     </div>
     <div id = "img3">
         <img src = "https://peltiertech.com/images/2013-01/Donut1.png" style="width:100%;
         height: 246px;margin-bottom:-5px;">
-        <button id="insertDonutChart">Insert</button>  
+        <button id="insertDonutChart">Insert</button>
     </div>
     <div id = "img4">
         <img src = "http://backstopmedia.booktype.pro/developing-a-d3js-edge/reusable-bar-chart/static/reusable_with_axes.html.png" style="width:100%;
         height: 246px;margin-bottom:-5px;">
-        <button id="insertBarChart">Insert</button>  
+        <button id="insertBarChart">Insert</button>
     </div>
     <div id = "img5">
         <img src = "http://cdn.history.com/sites/2/2013/12/egyptian-pyramids-hero-H.jpeg" style="width:100%;
         height: 246px;margin-bottom:-5px;">
-        <button id="insertPyramidChart">Insert</button>
+        <button id="insertPyramidChart" class="button">Insert</button>
     </div>
-    
+
     <div id="graphCanvas"></div>
     <div id  = "btn_save">
         <button id="saveImage">Save</button>
-        <form id="testForm">
-            First name:<br>
-            <input type="text" name="firstname" value="Mickey">
-            <br>
-            Last name:<br>
-            <input type="text" name="lastname" value="Mouse">
-            <br><br>
-            <input type="submit" value="Submit">
-        </form>
     </div>
 
-    <script src="Charts/bar_chart.js"></script> 
+    <div class="dialog" id="myform">
+        <form id="testForm">
+            <div id="formInputs">
+                <div>
+                    <label>Label</label>
+                    <input type="text" name="label">
+                    <label>Value</label>
+                    <input type="text" name="value">
+                </div>
+
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+        <button id="addNewField">Add New Field</button>
+    </div>
+
+    <script src="Charts/bar_chart.js"></script>
     <script src="Charts/pie_chart.js"></script>
     <script src="Charts/donut_chart.js"></script>
     <script src="Charts/pyramid_chart.js"></script>
@@ -61,6 +68,6 @@
     <script src="../Infographic/charts.js"></script>
 
 
- <script src="../Esential/footer.js"></script>  
+ <script src="../Esential/footer.js"></script>
 </body>
 </html>
