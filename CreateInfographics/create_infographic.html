@@ -20,81 +20,36 @@
         <img src = "http://www.advsofteng.com/doc/cdpydoc/images/simplepie.png" style="width:100%;
             height: 246px;margin-bottom:-5px;">
         <button id="insertChart">Insert</button>  
-        <div id="myModal" class="modal">          
-                <div class="modal-content">
-                    <div class="modal-header">
-                            <span class="close">&times;</span>
-                            <h2>Import your files</h2>
-                    </div>
-                    <div class="modal-body">
-                            <p>Choose what type of file do you want to import?</p>
-                            <form action="" method="post">
-                                <input type="radio" name="filetype" value="csv" /> CSV File <br><br>
-                                <input type="radio" name="filetype" value="json" /> JSON File <br><br>
-                                <input type="submit" value="Submit"> 
-                            </form>
-                    </div>
-                </div>
-            </div>
     </div>
     <div id = "img3">
         <img src = "https://peltiertech.com/images/2013-01/Donut1.png" style="width:100%;
         height: 246px;margin-bottom:-5px;">
         <button id="insertDonutChart">Insert</button>  
-        <div id="myModal" class="modal">          
-                <div class="modal-content">
-                    <div class="modal-header">
-                            <span class="close">&times;</span>
-                            <h2>Import your files</h2>
-                    </div>
-                    <div class="modal-body">
-                            <p>Choose what type of file do you want to import?</p>
-                            <form action="" method="post">
-                                <input type="radio" name="filetype" value="csv" /> CSV File <br><br>
-                                <input type="radio" name="filetype" value="json" /> JSON File <br><br>
-                                <input type="submit" value="Submit"> 
-                            </form>
-                    </div>
-                </div>
-            </div>
     </div>
     <div id = "img4">
         <img src = "http://backstopmedia.booktype.pro/developing-a-d3js-edge/reusable-bar-chart/static/reusable_with_axes.html.png" style="width:100%;
         height: 246px;margin-bottom:-5px;">
         <button id="insertBarChart">Insert</button>  
-        <div id="myModal" class="modal">          
-                <div class="modal-content">
-                    <div class="modal-header">
-                            <span class="close">&times;</span>
-                            <h2>Import your files</h2>
-                    </div>
-                    <div class="modal-body">
-                            <p>Choose what type of file do you want to import?</p>
-                            <form action="" method="post">
-                                <input type="radio" name="filetype" value="csv" /> CSV File <br><br>
-                                <input type="radio" name="filetype" value="json" /> JSON File <br><br>
-                                <input type="submit" value="Submit"> 
-                            </form>
-                    </div>
-                </div>
-            </div>
     </div>
     <div id = "img5">
-        <img src = "http://cdn.history.com/sites/2/2013/12/egyptian-pyramids-hero-H.jpeg" style="width:100%;
+        <img src = "https://s3.envato.com/files/144091683/9_300.jpg" style="width:100%;
         height: 246px;margin-bottom:-5px;">
         <button id="insertPyramidChart">Insert</button>
-        <div id="myModal" class="modal">          
+        <div id="dataModal" class="modal">          
             <div class="modal-content">
                 <div class="modal-header">
                         <span class="close">&times;</span>
-                        <h2>Import your files</h2>
+                        <h2>Give us data</h2>
                 </div>
                 <div class="modal-body">
-                        <p>Choose what type of file do you want to import?</p>
                         <form action="" method="post">
-                            <input type="radio" name="filetype" value="csv" /> CSV File <br><br>
-                            <input type="radio" name="filetype" value="json" /> JSON File <br><br>
-                            <input type="submit" value="Submit"> 
+                            <ul type = "circle">
+                                <li>
+                                    <p>Import CSV/JSON File</p>
+                                    <input type="file" name="filetype" value="csvjson" accept=".csv, .json"/>
+                                </li>
+                            </ul>
+                            <input type="submit" value="Submit">  
                         </form>
                 </div>
             </div>
@@ -104,15 +59,20 @@
     <div id="graphCanvas"></div>
     <div id  = "btn_save">
         <button id="saveImage">Save</button>
-        <form id="testForm">
-            First name:<br>
-            <input type="text" name="firstname" value="Mickey">
-            <br>
-            Last name:<br>
-            <input type="text" name="lastname" value="Mouse">
-            <br><br>
-            <input type="submit" value="Submit">
-        </form>
+        <div id="saveModal" class="modal">          
+                <div class="modal-content">
+                    <div class="modal-header">
+                            <span class="saveclose">&times;</span>
+                            <h2>How would you like to save the graphic?</h2>
+                    </div>
+                    <div class="modal-body">
+                            <form action="" method="get">
+                                <input type="radio" name = "photo"  id="png" />PNG<br><br>
+                                <input type="radio" name = "photo"  id="svg">SVG
+                            </form>
+                    </div>
+                </div>
+        </div>
     </div>
 
     <script src="Charts/bar_chart.js"></script> 
@@ -121,8 +81,8 @@
     <script src="Charts/pyramid_chart.js"></script>
     <script src="Charts/id_generator.js"></script>
     <script src="Charts/submit_form.js"></script>
-    <script src="saveImage.js"></script>
-    <script src="modal.js"></script>
+    <script src="datamodal.js"></script>
+    <script src="savemodal.js"></script>
     <script src="../Infographic/charts.js"></script>
 
 

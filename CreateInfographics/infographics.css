@@ -12,13 +12,13 @@ body{
     margin-top:25px;
     margin-bottom: 10%;
 }
-#img1,#img3,#img4 {
+#img1,#img3,#img4,#img5 {
     border: 2px solid rgb(39, 39, 77);
     width: 20%;
     float: left;
     margin-left: 20px;
 }
-#img1,#img3,#img4{
+#img1,#img3,#img4,#img5{
     /*display: block;*/
     display: inline;
     margin-top: 10%;
@@ -50,7 +50,7 @@ body{
     height: 300px;
 }
 
-#insertChart,#insertDonutChart,#insertBarChart {
+#insertChart,#insertDonutChart,#insertBarChart, #insertPyramidChart {
     background-color: rgb(58, 58, 124); 
     border: 1px solid white;
     color:white;
@@ -59,7 +59,7 @@ body{
     cursor:pointer;
   }
   
-#insertChart:hover,#insertDonutChart:hover,#saveImage:hover,#insertBarChart:hover {
+#insertChart:hover,#insertDonutChart:hover,#saveImage:hover,#insertBarChart:hover, #insertPyramidChart:hover {
     background-color: rgb(39, 39, 77);
     color: white;
   }
@@ -85,14 +85,14 @@ body{
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #371a7c;
+    background-color: rgb(70, 70, 156);
     color: white;
 }
 
 .modal-body {padding: 2px 16px;}
 
 .modal-content {
-    background-color: #6baab3;
+    background-color: rgb(132, 132, 187);
     margin: auto;
     padding: 0;
     border: 1px solid #888;
@@ -122,19 +122,31 @@ body{
     font-size: 28px;
     font-weight: bold;
 }
-
-.close:hover,
+.close:hover
 .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
-
+.saveclose {
+    color: rgb(209, 205, 205);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.saveclose:hover
+.saveclose:focus{
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+    cursor: pointer;
+}
 input[type=submit]{
     height: 35px;
     width: 70px;
-    background: #09c;
+    background: #371a7c;
     color: #fff;
-    border-radius: 10px;
     border: 1px solid #999;
+    position: relative;
+    border-radius: 10px;
+    left :5%; 
 }
