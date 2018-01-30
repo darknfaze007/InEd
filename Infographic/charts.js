@@ -82,8 +82,9 @@ var createPieChart = function(dataArray, divId) {
     });
     doughnutChart.render();
 };*/
+/*
 
-var createPyramidChart = function(/*dataArray, divId*/) {
+var createPyramidChart = function(/!*dataArray, divId*!/) {
     var pyramidChart = new CanvasJS.Chart("graphCanvas", {
         animationEnabled: true,
         exportEnabled: true,
@@ -114,8 +115,8 @@ function populateChartWithData(dataArray) {
             label: dataArray[i].label
         };
         resultArray.push(tempObject);
-        /*pieChart.options.data.dataPoints[i].y = dataArray[i].y;
-        pieChart.options.data.dataPoints[i].name = dataArray[i].name;*/
+        /!*pieChart.options.data.dataPoints[i].y = dataArray[i].y;
+        pieChart.options.data.dataPoints[i].name = dataArray[i].name;*!/
     }
     return resultArray;
 };
@@ -127,4 +128,4 @@ function explodePie (e) {
         e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
     }
     e.chart.render();
-};
+};*/

@@ -1,0 +1,39 @@
+{
+  "animationEnabled": true,
+  "theme": "light1",
+  "title": {
+    "text": "Software Sales Conversion"
+  },
+  "data": [
+    {
+      "type": "pyramid",
+      "yValueFormatString": "#\"%\"",
+      "indexLabelFontColor": "black",
+      "indexLabelFontSize": 16,
+      "indexLabel": "{label} - {y}",
+      "dataPoints": [
+        {
+          "y": 100,
+          "label": "Website Visit"
+        },
+        {
+          "y": 65,
+          "label": "Download Page Visit"
+        },
+        {
+          "y": 45,
+          "label": "Downloaded"
+        },
+        {
+          "y": 32,
+          "label": "Interested To Buy"
+        },
+        {
+          "y": 5,
+          "label": "Purchased"
+        }
+      ]
+    }
+  ]
+}
+

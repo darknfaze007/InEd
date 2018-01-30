@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95d6ba5d-f595-48cc-87d8-0857f8f09241" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Charts/bar_chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Charts/donut_chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Charts/id_generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Charts/pie_chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Charts/pyramid_chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Charts/submit_form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Files/bar_chart.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Files/data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Files/donut_chart.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/chart.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/chart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/dragAndDrop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/infographics.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/saveImage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DragAndDrop/dragAndDrop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DragAndDrop/dragAndDrop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DragAndDrop/dragAndDrop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CreateInfographics/create_infographic.html" afterPath="$PROJECT_DIR$/CreateInfographics/create_infographic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Esential/header.js" afterPath="$PROJECT_DIR$/Esential/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Esential/lheader.js" afterPath="$PROJECT_DIR$/Esential/lheader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomePage/slider_image.js" afterPath="$PROJECT_DIR$/HomePage/slider_image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Infographic/charts.js" afterPath="$PROJECT_DIR$/Infographic/charts.js" />
+    <list default="true" id="1129910e-65ef-4732-8dd3-772c0a605f89" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Charts/data-import.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Files/BarChartSample.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Files/ColumnChartSample.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Files/PyramidChartSample.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CreateInfographics/Files/test.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CreateInfographics/Charts/pyramid_chart.js" afterPath="$PROJECT_DIR$/CreateInfographics/Charts/canvasjs_charts.js" />
+      <change beforePath="$PROJECT_DIR$/CreateInfographics/chart.js" afterPath="$PROJECT_DIR$/CreateInfographics/chart.js" />
+      <change beforePath="$PROJECT_DIR$/CreateInfographics/create_infographic.html" afterPath="$PROJECT_DIR$/CreateInfographics/create_infographic.html" />
+      <change beforePath="$PROJECT_DIR$/CreateInfographics/datamodal.js" afterPath="$PROJECT_DIR$/CreateInfographics/datamodal.js" />
+      <change beforePath="$PROJECT_DIR$/CreateInfographics/infographics.css" afterPath="$PROJECT_DIR$/CreateInfographics/infographics.css" />
+      <change beforePath="$PROJECT_DIR$/CreateInfographics/savemodal.js" afterPath="$PROJECT_DIR$/CreateInfographics/savemodal.js" />
+      <change beforePath="$PROJECT_DIR$/Infographic/charts.js" afterPath="$PROJECT_DIR$/Infographic/charts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create_infografic.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Infographic/create_infografic.css">
+      <file leaf-file-name="create_infographic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateInfographics/create_infographic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="419">
+              <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -50,115 +41,18 @@
       <file leaf-file-name="charts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Infographic/charts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state relative-caret-position="96">
+              <caret line="90" column="17" lean-forward="false" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Esential/header.js">
+      <file leaf-file-name="donut_chart.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/donut_chart.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-              <folding>
-                <marker date="1517152032402" expanded="true" signature="62:218" ph="..." />
-                <marker date="1517152032402" expanded="true" signature="62:370" ph="..." />
-                <marker date="1517152032402" expanded="true" signature="62:1183" ph="..." />
-                <marker date="1517152032402" expanded="true" signature="151:218" ph="..." />
-                <marker date="1517152032402" expanded="true" signature="385:807" ph="..." />
-                <marker date="1517152032402" expanded="true" signature="486:788" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bar_chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/bar_chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1999">
-              <caret line="126" column="12" lean-forward="false" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_infographic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/create_infographic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pie_chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/pie_chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="106" column="38" lean-forward="false" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pyramid_chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/pyramid_chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submit_form.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/submit_form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="id_generator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/id_generator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="donut_chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/donut_chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="108" column="40" lean-forward="true" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dragAndDrop.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/dragAndDrop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -167,15 +61,35 @@
       <file leaf-file-name="infographics.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CreateInfographics/infographics.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="759">
+              <caret line="155" column="10" lean-forward="false" selection-start-line="155" selection-start-column="10" selection-end-line="155" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/chart.html">
+      <file leaf-file-name="PyramidChartSample.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/PyramidChartSample.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/test.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submit_form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/submit_form.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -184,31 +98,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saveImage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/saveImage.js">
+      <file leaf-file-name="data-import.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/data-import.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/data.csv">
+      <file leaf-file-name="canvasjs_charts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/canvasjs_charts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createInfographic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Infographic/createInfographic.html">
+      <file leaf-file-name="BarChartSample.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/BarChartSample.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -225,13 +141,14 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>domtoimage</find>
-      <find>insertChart</find>
-      <find>mydragg</find>
-      <find>stopmoving</find>
-      <find>donut_chart_div</find>
-      <find>pyramidChart1</find>
-      <find>btn_save</find>
+      <find>canvasjs.com</find>
+      <find>ua(this</find>
+      <find>header</find>
+      <find>canvasjs</find>
+      <find>saveImage</find>
+      <find>insertPyramidChart</find>
+      <find>img5</find>
+      <find>graphCanvas</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -245,15 +162,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CreateInfographics/saveImage.js" />
-        <option value="$PROJECT_DIR$/Esential/header.js" />
         <option value="$PROJECT_DIR$/Infographic/charts.js" />
-        <option value="$PROJECT_DIR$/CreateInfographics/Charts/pie_chart.js" />
-        <option value="$PROJECT_DIR$/CreateInfographics/dragAndDrop.js" />
-        <option value="$PROJECT_DIR$/CreateInfographics/Charts/id_generator.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/savemodal.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_canvasjs.com_assets_script_canvasjs.min.js" />
+        <option value="$PROJECT_DIR$/Infographic/createInfographic.html" />
+        <option value="$PROJECT_DIR$/Esential/header.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/chart.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/Charts/donut_chart.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/Charts/column_chart.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/Charts/bar_chart_canvasjs.js" />
         <option value="$PROJECT_DIR$/CreateInfographics/Charts/pyramid_chart.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/datamodal.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/Charts/data-import.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/Files/BarChartSample.json" />
+        <option value="$PROJECT_DIR$/CreateInfographics/Charts/canvasjs_charts.js" />
         <option value="$PROJECT_DIR$/CreateInfographics/create_infographic.html" />
-        <option value="$PROJECT_DIR$/CreateInfographics/Charts/submit_form.js" />
+        <option value="$PROJECT_DIR$/CreateInfographics/infographics.css" />
+        <option value="$PROJECT_DIR$/CreateInfographics/Files/PyramidChartSample.json" />
+        <option value="$PROJECT_DIR$/CreateInfographics/Files/test.json" />
       </list>
     </option>
   </component>
@@ -263,7 +189,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -284,69 +210,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
+              <item name="InEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InEd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
+              <item name="InEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InEd" type="462c0819:PsiDirectoryNode" />
               <item name="CreateInfographics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
+              <item name="InEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InEd" type="462c0819:PsiDirectoryNode" />
               <item name="CreateInfographics" type="462c0819:PsiDirectoryNode" />
               <item name="Charts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
-              <item name="EditProfile" type="462c0819:PsiDirectoryNode" />
+              <item name="InEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InEd" type="462c0819:PsiDirectoryNode" />
+              <item name="CreateInfographics" type="462c0819:PsiDirectoryNode" />
+              <item name="Files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
-              <item name="Esential" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
-              <item name="Forum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
+              <item name="InEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InEd" type="462c0819:PsiDirectoryNode" />
               <item name="Infographic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InEd3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InEd3" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginPage" type="462c0819:PsiDirectoryNode" />
+              <item name="InEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="InEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="canvasjs" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="C:/dev/tools/node-v8.6.0-win-x64/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file://C:/Facultate/CLIW/InEd3/Esential/header.js&#10;data.cs&#9;FILE&#9;file://C:/Facultate/CLIW/InEd3/CreateInfographics/Files/data.csv" />
+    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file://D:/Facultate/CLIW/InEd3/InEd/Esential/header.js" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Facultate\CLIW\InEd3\InEd\CreateInfographics\Files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -393,7 +314,7 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -401,12 +322,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -428,7 +343,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -442,6 +357,12 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -451,20 +372,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95d6ba5d-f595-48cc-87d8-0857f8f09241" name="Default" comment="" />
-      <created>1517149503983</created>
+      <changelist id="1129910e-65ef-4732-8dd3-772c0a605f89" name="Default" comment="" />
+      <created>1517250489099</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1517149503983</updated>
-      <workItem from="1517149506620" duration="13497000" />
+      <updated>1517250489099</updated>
+      <workItem from="1517250492083" duration="18887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13497000" />
+    <option name="totallyTimeSpent" value="18887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -474,8 +395,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -486,8 +407,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39941263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -502,11 +423,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Infographic/create_infografic.css">
+    <entry file="file://$PROJECT_DIR$/HomePage/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -514,145 +437,334 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/data.csv">
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/savemodal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_canvasjs.com_assets_script_canvasjs.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/saveImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/infographics.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/chart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Infographic/createInfographic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="154" column="53" lean-forward="true" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1517256710597" expanded="true" signature="5826:5837" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="256856:256906" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="422071:422125" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="422141:422147" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="422147:422153" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="422465:422519" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="422535:422541" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="422541:422547" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="422552:422558" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="422558:422564" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="422956:423010" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="423026:423032" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423032:423038" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423045:423051" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423374:423428" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="423455:423461" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423461:423467" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423484:423490" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423490:423496" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423496:423502" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423517:423523" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423523:423529" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423529:423535" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423553:423559" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423559:423565" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423874:423928" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="423958:423964" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423964:423970" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423985:423991" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423991:423997" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="423997:424003" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424003:424009" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424009:424015" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424015:424021" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424021:424027" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424027:424033" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424033:424039" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424039:424045" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424045:424051" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424051:424057" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424057:424063" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424063:424069" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424084:424090" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424090:424096" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424096:424102" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424102:424108" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424108:424114" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424114:424120" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424120:424126" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424126:424132" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424132:424138" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424138:424144" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424144:424150" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424150:424156" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424156:424162" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424162:424168" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424183:424189" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424189:424195" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424195:424201" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424201:424207" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424207:424213" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424213:424219" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424219:424225" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424225:424231" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424231:424237" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424237:424243" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424243:424249" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424249:424255" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424255:424261" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424261:424267" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="424287:424293" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425172:425226" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="425265:425271" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425271:425277" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425445:425499" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="425538:425544" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425544:425550" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425555:425561" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425561:425567" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425791:425846" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="425873:425879" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425879:425885" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425911:425917" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="425917:425923" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426198:426252" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="426292:426298" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426298:426304" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426312:426318" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426511:426565" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="426614:426620" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426620:426626" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426643:426649" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426649:426655" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426655:426661" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426677:426683" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426683:426689" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426689:426695" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426695:426701" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426719:426725" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426725:426731" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="426911:426965" ph="..." />
+            <marker date="1517256710597" expanded="true" signature="427017:427023" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427023:427029" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427044:427050" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427050:427056" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427056:427062" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427062:427068" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427068:427074" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427074:427080" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427080:427086" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427086:427092" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427092:427098" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427098:427104" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427104:427110" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427110:427116" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427116:427122" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427122:427128" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427143:427149" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427149:427155" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427155:427161" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427161:427167" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427167:427173" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427173:427179" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427179:427185" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427185:427191" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427191:427197" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427197:427203" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427203:427209" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427209:427215" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427215:427221" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427221:427227" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427242:427248" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427248:427254" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427254:427260" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427260:427266" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427266:427272" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427272:427278" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427278:427284" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427284:427290" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427290:427296" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427296:427302" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427302:427308" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427308:427314" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427314:427320" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427320:427326" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="427346:427352" ph="&amp;nbsp;" />
+            <marker date="1517256710597" expanded="true" signature="451543:451628" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Esential/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
-            <marker date="1517152032402" expanded="true" signature="62:218" ph="..." />
-            <marker date="1517152032402" expanded="true" signature="62:370" ph="..." />
-            <marker date="1517152032402" expanded="true" signature="62:1183" ph="..." />
-            <marker date="1517152032402" expanded="true" signature="151:218" ph="..." />
-            <marker date="1517152032402" expanded="true" signature="385:807" ph="..." />
-            <marker date="1517152032402" expanded="true" signature="486:788" ph="..." />
+            <marker date="1517256793970" expanded="true" signature="62:1031" ph="..." />
+            <marker date="1517256793970" expanded="true" signature="151:921" ph="..." />
+            <marker date="1517256793970" expanded="true" signature="233:655" ph="..." />
+            <marker date="1517256793970" expanded="true" signature="334:636" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/bar_chart.js">
+    <entry file="file://$PROJECT_DIR$/Infographic/createInfographic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1999">
-          <caret line="126" column="12" lean-forward="false" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Infographic/charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/dragAndDrop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/donut_chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="108" column="40" lean-forward="true" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/pie_chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="106" column="38" lean-forward="false" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="38" />
+        <state relative-caret-position="221">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/id_generator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/pyramid_chart.js">
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/donut_chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="453">
+          <caret line="119" column="32" lean-forward="false" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/bar_chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="116" column="29" lean-forward="false" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/column_chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/bar_chart_canvasjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/datamodal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/donut_chart.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infographic/charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="90" column="17" lean-forward="false" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/BarChartSample.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/canvasjs_charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CreateInfographics/create_infographic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="419">
+          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/infographics.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="155" column="10" lean-forward="false" selection-start-line="155" selection-start-column="10" selection-end-line="155" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/PyramidChartSample.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Files/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/submit_form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateInfographics/Charts/data-import.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>

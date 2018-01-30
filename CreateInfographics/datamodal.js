@@ -1,20 +1,24 @@
 var datamodal = document.getElementById('dataModal');
 
-var btn = document.getElementById("insertPyramidChart");
+//var pyramidBtn = document.getElementById("insertPyramidChart");
 
 var span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() {
+/*pyramidBtn.onclick = function() {
     datamodal.style.display = "block";
-}
+};*/
+
+$('.insertButton').click(function() {
+    datamodal.style.display = "block";
+});
 
 span.onclick = function() {
     datamodal.style.display = "none";
-}
+};
 
 window.onclick = function(event) {
     if (event.target == modal) {
         datamodal.style.display = "none";
     }
-}
+};
 

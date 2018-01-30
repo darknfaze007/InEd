@@ -1,0 +1,2 @@
+type,showInLegend,legendMarkerColor,legendText,dataPoints/0/y,dataPoints/0/label,dataPoints/1/y,dataPoints/1/label,dataPoints/2/y,dataPoints/2/label,dataPoints/3/y,dataPoints/3/label,dataPoints/4/y,dataPoints/4/label,dataPoints/5/y,dataPoints/5/label,dataPoints/6/y,dataPoints/6/label,dataPoints/7/y,dataPoints/7/label
+column,true,grey,MMbbl = one million barrels,300878,Venezuela,266455,Saudi,169709,Canada,158400,Iran,142503,Iraq,101500,Kuwait,97800,UAE,80000,Russia
