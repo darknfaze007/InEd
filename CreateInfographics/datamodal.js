@@ -17,7 +17,7 @@ span.onclick = function() {
 };
 
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == datamodal) {
         datamodal.style.display = "none";
     }
 };
